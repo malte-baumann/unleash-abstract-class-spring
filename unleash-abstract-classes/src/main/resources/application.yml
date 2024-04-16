@@ -1,0 +1,15 @@
+server:
+  port: 2000
+
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
+
+io:
+  getunleash:
+    api-token: "default:development.b3aa5551f2e853dff48114c3ccfbc3b7beb0262d1b0680795b79eae3"
+    instance-id: "bff"
+    environment: "development"
+    api-url: "http://localhost:4242/api/"
